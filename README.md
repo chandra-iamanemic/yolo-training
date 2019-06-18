@@ -19,7 +19,7 @@ The text file accompanying the image should contain these 5 values :
 5. (height of the bounding box/height of total image)
 
 As it can be seen, we take the relative or absolute values of the coordinates (w.r.t total image coordinates)
-Hence we have the 4 values in percentages (0 to 1)
+Hence we have the 4 values in the range (0 to 1)
 
 example of txt file :
 0 0.3 0.24 0.6 0.4
