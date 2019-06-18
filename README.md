@@ -38,10 +38,13 @@ of the text file should be the same as that of the image. (1.jpg and 1.txt = thi
 
 open your terminal and change into the darknet directory.
 
-./darknet (path to obj.data) (path to cfg file) (path to the pre-trained weights)
+./darknet detector train (path to obj.data) (path to cfg file) (path to the pre-trained weights)
 
 example : 
 ./darknet detector train /home/csi/Documents/Chandra/yolo/darknet/data/obj.data /home/csi/Documents/Chandra/yolo/darknet/data/yolov3-hands.cfg /home/csi/Documents/Chandra/yolo/darknet/darknet53.conv.74
+
+## Testing on a single image 
+./darknet detector test (path to obj.data) (path to cfg file) (path to your trained weights) (path to the test image)
 
 ## Using the trained model
 check out this repo : https://github.com/chandra-iamanemic/yolo_object_detection
