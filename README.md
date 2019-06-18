@@ -10,6 +10,20 @@ The data used for training is a collection of images with the desired object to 
 Each of these images have to accompanied by a text file containing the coordinates of the bounding box and the name 
 of the text file should be the same as that of the image. (1.jpg and 1.txt = this is one sample)
 
+## The label file (text file)
+The text file accompanying the image should contain these 5 values :
+1. class number
+2. x-centre of the bounding box/width of total image (absolute value of x-centre)
+3. y-centre of the bounding box/heigth of total image (absolute value of y-centre)
+4. (width of the bounding box/width of total image)
+5. (height of the bounding box/height of total image)
+
+As it can be seen, we take the relative or absolute values of the coordinates (w.r.t total image coordinates)
+Hence we have the 4 values in percentages (0 to 1)
+
+example of txt file :
+0 0.3 0.24 0.6 0.4
+
 ## Setup to train the network
 
   * The training data must be placed inside darkent/data/obj 
