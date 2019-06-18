@@ -1,0 +1,5 @@
+classes = 2
+train = /home/csi/Documents/Chandra/yolo/darknet/data/train.txt
+valid = /home/csi/Documents/Chandra/yolo/darknet/data/test.txt
+names = /home/csi/Documents/Chandra/yolo/darknet/data/obj.names
+backup = weights/hands4
