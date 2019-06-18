@@ -19,11 +19,11 @@ of the text file should be the same as that of the image. (1.jpg and 1.txt = thi
   * Create a file obj.data that points the paths of all the files required for begining the training process(Example in repo)
   
   This is how your obj.data file must look like (ignore the comments in the brackets) :
-  classes = 2
-  train = /home/csi/Documents/Chandra/yolo/darknet/data/train.txt (path to train.txt)
-  valid = /home/csi/Documents/Chandra/yolo/darknet/data/test.txt  (path to test.txt (not necessary))
-  names = /home/csi/Documents/Chandra/yolo/darknet/data/obj.names (path to obj.names file)
-  backup = weights/hands  (relative location inside darknet folder where the weights are saved during training process)
+  1. classes = 2
+  2. train = /home/csi/Documents/Chandra/yolo/darknet/data/train.txt (path to train.txt)
+  3. valid = /home/csi/Documents/Chandra/yolo/darknet/data/test.txt  (path to test.txt (not necessary))
+  4. names = /home/csi/Documents/Chandra/yolo/darknet/data/obj.names (path to obj.names file)
+  5. backup = weights/hands  (relative location inside darknet folder where the weights are saved during training process)
   
   
   
